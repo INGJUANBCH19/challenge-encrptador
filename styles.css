@@ -58,7 +58,7 @@
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 80%;
+    top: 78%;
     
 }
 .informacion p{
@@ -70,7 +70,7 @@
     color: #495057;
     opacity: 0.8;
     flex: none;
-    order: 1;
+    border: 1;
     flex-grow: 0;
 
 }
