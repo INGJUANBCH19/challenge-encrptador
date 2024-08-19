@@ -49,7 +49,7 @@ git clone [https://github.com/INGJUANBCH19/challenge-encrptador.git](https://git
 Navega al directorio del proyecto:
 
 ```bash
-cd encriptador-de-texto
+cd desafío-encriptador
 ```
 
 Abre el archivo `index.html` en tu navegador web para comenzar a usar el Encriptador de Texto.
