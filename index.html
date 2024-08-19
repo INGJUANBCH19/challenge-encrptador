@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..
+32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <img class="Logo" src="img/Logo (1).png" alt="">
+        <img class="logoing" src="img/logoijb.png" alt="">
+       
+        
+    </header>
+    <div class="container">
+        
+        <div class="encriptar"> 
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10"
+            placeholder="Ingrese texto aqui"></textarea>
+        
+        
+        <div class="informacion">
+            <img src="img/bi_exclamation-circle-fill.png" alt="exclamacion">
+            <p>Solo letras minusculas y sin acentos.</p>
+        </div>
+        
+        <div class="botones">
+            <button class="btnEncriptar" onclick="btnEncriptar()"> Encriptar</button>
+            <button class="btnDesencriptar" onclick="btnDesencriptar()"> Desencriptar</button>
+        </div>
+    </div>
+
+        <div class="txtencriptado">
+            <textarea class="mensaje" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <img class="muñeco" src="img/Muñeco.png" alt="" id="Muñeco">
+            <div class="mensaje-encriptado">
+                <h2 id="msj">Ningun mensaje fue encontrado</h2>
+                <p id="parrafo">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <div class="botoncopiar">
+                <button class="btnCopiar" id="copiar" onclick="copiar()"> <strong>Copiar</strong></button>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <div class="presentacion__enlaces">
+      
+    <a class="presentacion__enlaces__links" href="https://potafolio-presentacion-six.vercel.app/index.html">
+        <img class="ijb" src="img/ijb.png" alt="ijb">
+         </a>
+    <a class="presentacion__enlaces__links" href="https://www.instagram.com/jbetinchamat/"> 
+        <img class="insta" src="img/instagram (1).png" alt="">
+        </a>
+    <a class="presentacion__enlaces__links" href="https://github.com/INGJUANBCH19">
+        <img class="git" src="img/github.png" alt="">
+         </a>
+    <a class="presentacion__enlaces__links" href="https://www.linkedin.com/in/juan-betin-5092172b6/">
+        <img class="lin" src="img/linkedin.png" alt="Icono de Linkedin">
+        </a>
+        
+        
+</div>
+</footer>
+<script src="app.js"></script>
+</html>
