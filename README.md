@@ -43,7 +43,7 @@ Para desencriptar el texto, las secuencias se convierten de vuelta a sus vocales
 Clona el repositorio en tu máquina local:
 
 ```bash
-git clone [https://github.com/INGJUANBCH19/challenge-encrptador.git](https://github.com/INGJUANBCH19/challenge-encrptador.git)
+git clone https://github.com/INGJUANBCH19/challenge-encrptador.git
 ```
 
 Navega al directorio del proyecto:
