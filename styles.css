@@ -351,7 +351,7 @@
         padding: 3%;
         height: 35%;
         align-self: flex-end;
-            margin-top: 100%; 
+            margin-top: 120%; 
 
 
     }
@@ -378,7 +378,112 @@
     margin-left: 20px;
 }
 
+
         
+    }
+    @media (min-width: 514px) and (max-width: 896px) {
+    
+     .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .Logo{
+        width: 20%;
+    }
+    .logoing{
+       width:  8%;
+    }
+    .encriptar{
+        width: 100%;
+    }
+    .texto{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+    .informacion{
+        width: 80%;
+        left: 10%;
+        top:70%
+    }
+    .informacion p{
+        font-size:16px;
+    }
+    .botones{
+        width: 80%;
+        left: 10%;
+        top:80%;
+    }
+    .btnEncriptar,.btnDesencriptar{
+        width: 48%;
+        border-radius: 16px;
+        
+    }
+    .btnDesencriptar:hover,.btnDesencriptar:hover{
+        margin: 0.3%;
+        width: 47.5%;
+        padding:1.8% ;
+    }
+    .txtencriptado{
+        width: 80%;
+        height: 15%;
+        top: 99%;
+        left: 10%;
+    }
+    .mensaje-encriptado{
+        width: 81%;
+        top:5%
+    }
+    .txtencriptado img{
+        top: 0;
+        display: none;
+        visibility: none;
+    }
+    .mensaje{
+        width: 100%;
+        left: 1;
+        padding: -90%;
+        top:1%
+
+    }
+    .btnCopiar{
+        width: 40%;
+        left: 35%;
+        
+        padding: 3%;
+        height: 35%;
+        align-self: flex-end;
+            margin-top: 64%; 
+
+
+    }
+   .footer{
+    align-self: flex-end;
+    margin-top: 80%; 
+    
+   }
+   .insta{
+    width: 70%;
+    margin-left: 20px;
+
+}
+.git{
+    width: 70%;
+    margin-left: 20px;
+}
+.lin{
+    width: 70%;
+    margin-left: 20px;
+}
+.ijb{
+    width: 70%;
+    margin-left: 20px;
+}
+
+    
+    
+    
     }
     
 
