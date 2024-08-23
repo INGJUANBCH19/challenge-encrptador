@@ -448,13 +448,13 @@
 
     }
     .btnCopiar{
-        width: 40%;
+        width: 50%;
         left: 35%;
         
-        padding: 3%;
+        padding: 5%;
         height: 35%;
         align-self: flex-end;
-            margin-top: 64%; 
+            margin-top: 70%; 
 
 
     }
