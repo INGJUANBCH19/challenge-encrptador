@@ -351,13 +351,13 @@
         padding: 3%;
         height: 35%;
         align-self: flex-end;
-            margin-top: 120%; 
+            margin-top: 150%; 
 
 
     }
    .footer{
     align-self: flex-end;
-    margin-top: 100%; 
+    margin-top: 120%; 
     
    }
    .insta{
@@ -451,10 +451,10 @@
         width: 50%;
         left: 35%;
         
-        padding: 5%;
+        padding: 4%;
         height: 35%;
         align-self: flex-end;
-            margin-top: 70%; 
+            margin-top: 80%; 
 
 
     }
