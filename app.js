@@ -10,7 +10,7 @@ function btnEncriptar(){
     document.getElementById("msj").style.display= "none";
     document.getElementById("parrafo").style.display= "none";
     document.getElementById("copiar").style.display="block";
-    document.getElementById("mensaje").style.display="block";
+    
 }
 
 
